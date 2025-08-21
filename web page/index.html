@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Personal Webpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+  
+  <section id="home" class="hero">
+    <h1>Welcome to My Personal Webpage</h1>
+    <p>Devanshi Dobariya </p>
+    <p>Web Developer | Designer | Creator</p>
+    <button onclick="scrollToSection('about')">Learn More</button>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Devanshi, a passionate web developer who loves to create clean, interactive, and user-friendly websites. I specialize in front-end development and am constantly learning new technologies.</p>
+    <p>My skills include HTML, CSS, JavaScript, React, and more!</p>
+  </section>
+
+  
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to get in touch, feel free to send me a message!</p>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
