@@ -17,11 +17,14 @@
 ```python
 print("Hello, World!")
 
+4.Variables and data types 
+
 name = "Alice"       # str
 age = 25             # int
 height = 5.6         # float
 is_student = True    # bool
 
+5.Control flow
 if age >= 18:
     print("Adult")
 else:
@@ -36,12 +39,13 @@ count = 0
 while count < 5:
     print(count)
     count += 1
-
+6. functions python copy code
 def greet(name):
     return f"Hello, {name}!"
 
 print(greet("Alice"))
 
+7. lists and dictionaries python
 # List
 fruits = ["apple", "banana", "cherry"]
 print(fruits[0])
@@ -50,6 +54,7 @@ print(fruits[0])
 person = {"name": "Bob", "age": 30}
 print(person["name"])
 
+8. Object-oriented programming python
 class Person:
     def _init_(self, name, age):
         self.name = name
@@ -61,6 +66,7 @@ class Person:
 p1 = Person("Alice", 25)
 p1.greet()
 
+9. File handling python
 # Write to a file
 with open("file.txt", "w") as f:
     f.write("Hello, file!")
